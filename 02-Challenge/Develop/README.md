@@ -1,35 +1,34 @@
 
-  # Read me
+  # readems generator
 
   ## Description
-  create read me
+  create file
 
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - 
+  - https://opensource.org/licenses/MIT
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
 
-  ## Installation Instructions
-  install
+  ## Installation 
+  instructions
 
-  ## Usage Information
+  ## Usage 
   info
 
   ## License
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
+  ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-This project is licensed under the Apache 2.0 license.
-  ![License](https://img.shields.io/badge/License-Apache 2.0-blue.svg)
-
-  ## Contribution Guidelines
-  guidlines
+  ## Contribution 
+  contribution
 
   ## Tests
-  instructions
+  instuctions
 
   ## Questions
-  Follow links below for questions
-  Email: [nate@gmail.com](mailto:nate@gmail.com).
-  Github: [natek336](https://github.com/natek336).
+  If you have any questions about the repo please contact me directly  
+  Email: [nate](mailto:nate). And find e on 
+  Github: [nate](https://github.com/nate).

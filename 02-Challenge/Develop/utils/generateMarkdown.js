@@ -10,29 +10,29 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license === 'MIT') {
-      return 'MIT)';
-  } else if (license === 'GPL 3.0') {
-      return 'GPL 3.0';
-  } else if (license --- 'Apache 2.0') {
-      return 'Apache 2.0';
-  } else if (license === 'NONE') {
-      return 'NONE';
-  } else {
-      return '';
+  if (!license) {
+    return '';
   }
-}
+
+  const licenseLinks = {
+    'MIT': 'https://opensource.org/licenses/MIT',
+    'Apache 2.0': 'https://opensource.org/licenses/Apache-2.0',
+    'GPL 3.0': 'https://www.gnu.org/licenses/gpl-3.0',
+    'BSD 3-Clause': 'https://opensource.org/licenses/BSD-3-Clause',
+  };
+
+  return licenseLinks[license] || '';
+  }
 
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license !== 'None') {
-    return `## License
-
-This project is licensed under the ${license} license.`;
+  if (!license) {
+    return '';
   }
-  return '';
+
+  return `## License\nThis project is licensed under the [${license}](${renderLicenseLink(license)}) license.`;
 }
 
 // TODO: Create a function to generate markdown for README
@@ -51,24 +51,24 @@ function generateMarkdown(data) {
   - [Tests](#tests)
   - [Questions](#questions)
 
-  ## Installation Instructions
+  ## Installation 
   ${data.installation}
 
-  ## Usage Information
+  ## Usage 
   ${data.usage}
 
   ${renderLicenseSection(data.license)}
   ${renderLicenseBadge(data.license)}
 
-  ## Contribution Guidelines
+  ## Contribution 
   ${data.contribution}
 
   ## Tests
   ${data.test}
 
   ## Questions
-  Follow links below for questions
-  Email: [${data.email}](mailto:${data.email}).
+  If you have any questions about the repo please contact me directly  
+  Email: [${data.email}](mailto:${data.email}). And find e on 
   Github: [${data.github}](https://github.com/${data.github}).
 `;
 }
