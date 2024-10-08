@@ -31,7 +31,7 @@ function renderLicenseSection(license) {
   if (!license) {
     return '';
   }
-
+  
   return `## License\nThis project is licensed under the [${license}](${renderLicenseLink(license)}) license.`;
 }
 
@@ -67,9 +67,8 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions
-  If you have any questions about the repo please contact me directly  
-  Email: [${data.email}](mailto:${data.email}). And find e on 
-  Github: [${data.github}](https://github.com/${data.github}).
+  If you have any questions about the repo please contact me directly Email at (${data.email}). 
+  And find me on Github at (https://github.com/${data.github}).
 `;
 }
 

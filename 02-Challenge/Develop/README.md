@@ -1,8 +1,8 @@
 
-  # readems generator
+  # READme Generator
 
   ## Description
-  create file
+  dhfhpwinvojwbvoborhvrb
 
   ## Table of Contents
   - [Installation](#installation)
@@ -13,22 +13,21 @@
   - [Questions](#questions)
 
   ## Installation 
-  instructions
+  follow them
 
   ## Usage 
-  info
+  know everything
 
   ## License
 This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
   ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
   ## Contribution 
-  contribution
+  know it
 
   ## Tests
-  instuctions
+  test 
 
   ## Questions
-  If you have any questions about the repo please contact me directly  
-  Email: [nate](mailto:nate). And find e on 
-  Github: [nate](https://github.com/nate).
+  If you have any questions about the repo please contact me directly Email at (nathankelley00@gmail.com). 
+  And find me on Github at (https://github.com/nate236).
